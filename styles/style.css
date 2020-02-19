@@ -1,21 +1,53 @@
+
 header{
     background-color:white;
     display:flex;
     flex-direction:row;
     justify-content: space-between;
 }
-.name-top{
+.header-text{
     font-weight: bold;
     position:absolute;
-    left:4.5%;
-    top:2.5%;
+    left:3.5%;
+    top:2.25%;
+    margin-left:10px;
 }
 img{
     float:left;
+    margin-left:10px;
 }
 .list1{
     cursor:pointer;
     display: inline;
     flex-direction: row;
     list-style: none;
+    margin-right:10px;
+}
+.block-1{
+    position: relative;
+    top: 40%;
+}
+.button-1{
+    cursor:pointer;
+    border:1px solid white;
+    padding:6px;
+    border-radius: 6px;
+    width: 7%;
+    position: absolute;
+    top:30%;
+    left:46.5%;
+
+}
+.img-1{
+    height: 120px;
+    position: absolute;
+    left:46.5%;
+    top:11%;
+}   
+main{
+    height: 400px;
+    width: 100%;    
+    background: url(../images/banner.png) no-repeat bottom fixed;
+    text-align: center;
+    color:white;
 }

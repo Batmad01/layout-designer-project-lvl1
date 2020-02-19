@@ -25,7 +25,7 @@ img{
 }
 .block-1{
     position: relative;
-    top: 40%;
+    top: 50%;
 }
 .button-1{
     cursor:pointer;
@@ -34,7 +34,7 @@ img{
     border-radius: 6px;
     width: 7%;
     position: absolute;
-    top:30%;
+    top:34%;
     left:46.5%;
 
 }
@@ -42,12 +42,30 @@ img{
     height: 120px;
     position: absolute;
     left:46.5%;
-    top:11%;
+    top:12%;
 }   
-main{
-    height: 400px;
+.first-block{
+    height: 350px;
     width: 100%;    
     background: url(../images/banner.png) no-repeat bottom fixed;
     text-align: center;
     color:white;
+}
+.main-content-block{
+    width:90%;
+    padding-top:20px;
+}
+.main-content-items{
+    width: 360px;
+    float:left;
+    text-align:left;
+}
+.main-content-items:last-child{
+    float:right;
+}
+.main-content-items:first-child{
+    margin-left:220px;
+}
+.main-content-items:nth-child(2){
+    margin-left:240px;
 }

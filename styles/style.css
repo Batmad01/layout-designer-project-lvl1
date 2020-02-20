@@ -21,7 +21,7 @@ img{
     display: inline;
     flex-direction: row;
     list-style: none;
-    margin-right:10px;
+    margin-right:20px;
 }
 .block-1{
     position: relative;
@@ -64,8 +64,43 @@ img{
     float:right;
 }
 .main-content-items:first-child{
-    margin-left:220px;
+    margin-left:250px;
 }
 .main-content-items:nth-child(2){
-    margin-left:240px;
+    margin-left:200px;
+}
+.second-block{
+    padding-top: 30px;
+    width: 500px;
+    margin-left: 350px;
+}
+.img-2{
+    position: absolute;
+    left:62%;
+    top:68.5%;
+    width: 400px;
+    height: 250px;
+    
+}
+.bg-1{
+    margin-top:200px;
+    width: 100%;
+    height: 350px;
+    background-color: rgb(243, 241, 241)
+}
+.img-3{
+    position:absolute;
+    left:18.25%;
+    top:106.5%;
+    width:400px;
+    height:250px;
+}
+.third-block{
+    float:right;
+    margin-top:50px;
+    width:500px;
+    margin-right:300px
+}
+footer{
+    margin-top:500px
 }

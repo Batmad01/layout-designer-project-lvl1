@@ -30,11 +30,13 @@ img{
 .button-1{
     cursor:pointer;
     border:1px solid white;
-    padding:6px;
+    background-color: transparent;
+    color:white;
+    padding:8px;
     border-radius: 6px;
     width: 7%;
     position: absolute;
-    top:34%;
+    top:35.5%;
     left:46.5%;
 
 }
@@ -97,10 +99,84 @@ img{
 }
 .third-block{
     float:right;
-    margin-top:50px;
     width:500px;
     margin-right:300px
 }
+.bg-2{
+    margin-top:50px;
+    width: 100%;
+    height: 350px;
+}
 footer{
-    margin-top:500px
+    margin-top:100px
+}
+.form-bg{
+    width:100%;
+    height:500px;
+    background-color: rgb(243, 241, 241);
+    text-align:center;
+    padding-top: 35px;
+}
+.field-1{
+    width:20%;
+    height: 20%;
+    border:2px solid #04d6a5;
+    margin:0 auto;
+    text-align: left;
+}
+select{
+    width:105px;
+    height:25px;
+    border-radius:5px;
+    margin-top:7px;
+    margin-bottom:7px;
+    margin-left:75px
+}
+.sel-2{
+    margin-left:155px
+}
+legend{
+    color:#04d6a5;
+    font-weight: bold;
+}
+label{
+    font-weight: bold;
+}
+.form-2{
+    padding-top:20px;
+}
+.field-2{
+    width:20%;
+    height: 130px;
+    border:2px solid #04d6a5;
+    margin:0 auto;
+    text-align: left;
+}
+input{
+    width:150px;
+    height:18px;
+    border-radius:5px;
+    margin-left:150px;
+    margin-top:7px;
+    margin-bottom:7px
+}
+.inp-1{
+    margin-left: 180px;
+}
+.inp-2{
+    margin-left: 165px;
+}
+.btn{
+    padding-top:15px
+}
+.btn-2{
+    border:2px solid #04d6a5;
+    border-radius:6px;
+    height:30px;
+    width:100px;
+    margin-right: 307px;
+    text-align: center;
+    color:#04d6a5;
+    font-weight: bold;
+    cursor: pointer;
 }

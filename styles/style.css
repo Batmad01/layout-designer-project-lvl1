@@ -3,16 +3,18 @@ header{
     display:flex;
     flex-direction:row;
     justify-content: space-between;
+    position:fixed;
+    width: 100%;
 }
 .header-text{
     font-weight: bold;
     position:absolute;
     left:3.5%;
-    top:2.25%;
+    top:30%;
     margin-left:10px;
 }
 img{
-    float:left;
+    display: flex;
     margin-left:10px;
 }
 .list1{
@@ -21,10 +23,11 @@ img{
     flex-direction: row;
     list-style: none;
     margin-right:20px;
+    font-weight: bold;
 }
 .block-1{
     position: relative;
-    top: 50%;
+    top: 59%;
 }
 .button-1{
     cursor:pointer;
@@ -36,7 +39,7 @@ img{
     border-radius: 6px;
     width: 7%;
     position: absolute;
-    top:35.5%;
+    top:32%;
     left:46.5%;
 
 }
@@ -44,7 +47,7 @@ img{
     height: 120px;
     position: absolute;
     left:46.5%;
-    top:12%;
+    top:9.5%;
 }   
 .first-block{
     height: 350px;
@@ -54,22 +57,14 @@ img{
     color:white;
 }
 .main-content-block{
-    width:90%;
+    height: 5px;
     padding-top:20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
 }
-.main-content-items{
-    width: 360px;
-    float:left;
-    text-align:left;
-}
-.main-content-items:last-child{
-    float:right;
-}
-.main-content-items:first-child{
-    margin-left:250px;
-}
-.main-content-items:nth-child(2){
-    margin-left:200px;
+.box-text{
+    width: 330px;
 }
 .second-block{
     padding-top: 30px;
@@ -79,32 +74,31 @@ img{
 .img-2{
     position: absolute;
     left:62%;
-    top:69%;
+    top:64%;
     width: 400px;
     height: 250px;
     
 }
 .bg-1{
     margin-top:200px;
-    width: 100%;
     height: 350px;
-    background-color: rgb(243, 241, 241)
+    background-color: rgb(243, 241, 241);
 }
 .img-3{
     position:absolute;
     left:18.25%;
-    top:106.5%;
+    top:100%;
     width:400px;
     height:250px;
 }
 .third-block{
-    float:right;
     width:500px;
-    margin-right:300px
+    padding-top:px;
+    margin-right:300px;
+    margin-left:1100px
 }
 .bg-2{
     margin-top:50px;
-    width: 100%;
     height: 350px;
 }
 .form-bg{
@@ -185,37 +179,32 @@ footer{
     width: 100%;
     height:200px;
     background-color: #283747 ;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
 }
 .foot-1{
-    width: 360px;
-    float:left;
     text-align:center;
     padding-top: 30px;
     color:white
 }
-.foot-1:last-child{
-    float:right;
-}
-.foot-1:nth-child(2){
-    margin-left: 400px;
-}
-.foot-list{
+.foot-2{
+    margin-top:-20px;
     text-align: left;
-    margin-left: 90px;
-}
-.foot-list-1{
-    text-align: left;
-    margin-left: 125px;
+    color:white
 }
 .year{
     color:rgba(255,255,255,0.4);
     padding-top:15px;
-    padding-right:px
+
 }
 .img-4{
     position:relative;
-    top:188.5%;
-    left:25%
+    top:23%;
+    left:-80%
+}
+.foot-list{
+    text-align: left;
 }
 a{
     color:black

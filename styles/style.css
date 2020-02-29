@@ -1,26 +1,26 @@
-header{
+body{
+    margin:0;
+}
+.header-1{
     background-color:white;
     display:flex;
     flex-direction:row;
     justify-content: space-between;
     position:fixed;
+    top:0;
     width: 100%;
 }
 .header-text{
     font-weight: bold;
-    position:absolute;
-    left:3.5%;
-    top:30%;
-    margin-left:10px;
+    padding-top: 15px;
+    padding-right:1350px;
 }
-img{
+.img-1{
     display: flex;
     margin-left:10px;
 }
-.list1{
-    cursor:pointer;
+.header-list{
     display: inline;
-    flex-direction: row;
     list-style: none;
     margin-right:20px;
     font-weight: bold;
@@ -29,7 +29,7 @@ img{
     position: relative;
     top: 59%;
 }
-.button-1{
+.reserv-button{
     cursor:pointer;
     border:1px solid white;
     background-color: transparent;
@@ -41,9 +41,11 @@ img{
     position: absolute;
     top:32%;
     left:46.5%;
-
 }
-.img-1{
+a.reserv-button:hover { background: rgba(255,255,255,.2); }
+a.reserv-button:active { background: transparent; }
+
+.img-2{
     height: 120px;
     position: absolute;
     left:46.5%;
@@ -56,7 +58,7 @@ img{
     text-align: center;
     color:white;
 }
-.main-content-block{
+.advantages-block{
     height: 5px;
     padding-top:20px;
     display: flex;
@@ -66,12 +68,12 @@ img{
 .box-text{
     width: 330px;
 }
-.second-block{
+.about-block{
     padding-top: 30px;
     width: 500px;
     margin-left: 350px;
 }
-.img-2{
+.img-3{
     position: absolute;
     left:62%;
     top:64%;
@@ -79,25 +81,25 @@ img{
     height: 250px;
     
 }
-.bg-1{
+.bg-about{
     margin-top:200px;
     height: 350px;
     background-color: rgb(243, 241, 241);
 }
-.img-3{
+.img-4{
     position:absolute;
     left:18.25%;
     top:100%;
     width:400px;
     height:250px;
 }
-.third-block{
+.chill-block{
     width:500px;
     padding-top:px;
     margin-right:300px;
     margin-left:1100px
 }
-.bg-2{
+.bg-chill{
     margin-top:50px;
     height: 350px;
 }
@@ -157,10 +159,10 @@ input{
 .inp-2{
     margin-left: 165px;
 }
-.btn{
+.btn-block{
     padding-top:15px
 }
-.btn-2{
+.btn{
     border:2px solid #04d6a5;
     border-radius:6px;
     height:30px;
@@ -171,6 +173,7 @@ input{
     font-weight: bold;
     cursor: pointer;
 }
+
 footer{
     margin:0;
     margin-top:-15px
@@ -198,7 +201,9 @@ footer{
     padding-top:15px;
 
 }
-.img-4{
+.img-5{
+    display: flex;
+    margin-left:10px;
     position:relative;
     top:23%;
     left:-80%
@@ -208,7 +213,3 @@ footer{
 }
 a{
     color:black
-}
-.a-1{
-    color:white
-}
